@@ -1,10 +1,5 @@
 import React from 'react'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Redirect,
-} from 'react-router-dom'
+import { BrowserRouter as Router, Route, Navigate } from 'react-router-dom'
 import View from './components/view/view'
 import { PAGE_KEYS, NOT_FOUND_KEY } from './app.constant'
 
@@ -17,22 +12,20 @@ export default function App() {
   return (
     <div className='container'>
       <Router basename={PUBLIC_URL}>
-        <Switch>
-          {PAGE_KEYS.map(key => (
-            <Route key={key} path={`/${key}`}>
-              <View pageKey={key} />
-            </Route>
-          ))}
-          <Route path={notFoundRoute}>
-            <View pageKey={NOT_FOUND_KEY} />
+        {PAGE_KEYS.map(key => (
+          <Route key={key} path={`/${key}`}>
+            <View pageKey={key} />
           </Route>
-          <Route exact path='/'>
-            <Redirect to={defaultRoute} />
-          </Route>
-          <Route path='*'>
-            <Redirect to={notFoundRoute} />
-          </Route>
-        </Switch>
+        ))}
+        <Route path={notFoundRoute}>
+          <View pageKey={NOT_FOUND_KEY} />
+        </Route>
+        <Route path='/'>
+          <Navigate to={defaultRoute} />
+        </Route>
+        <Route path='*'>
+          <Navigate to={notFoundRoute} />
+        </Route>
       </Router>
     </div>
   )

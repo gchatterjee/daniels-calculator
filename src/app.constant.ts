@@ -1,2 +1,2 @@
-export const PAGE_KEYS: string[] = []
-export const NOT_FOUND_KEY = 'not_found'
+export const PAGE_KEYS: string[] = ['Home', 'About', 'Not Found']
+export const NOT_FOUND_KEY = 'Not Found'

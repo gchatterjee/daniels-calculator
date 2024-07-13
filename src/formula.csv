@@ -1,0 +1,42 @@
+Weeks until race,Fraction of peak,Workout,Miles for Q sessions
+18,0.8,Q1 = 4E + 8M + 1T + 1E,14
+18,0.8,Q2 = 8E + 2x(2T w/ 2min rest) + 1T + 1E,15
+17,0.8,Q1 = 2E + 3T + 40min E + 2T + 1E,13
+17,0.8,Q2 = 6E + 5x(3min I w/2 min jog) + 6x(1 min R w/2 min jog) + 2E,13
+16,0.9,Q1 = 90-120min E,15
+16,0.9,Q2 = 6E + 2T + 2min E + 2T + 2min E + 1T + 2E,13
+15,0.9,Q1 = 2E + 8M + 1E + 2M + 2E,15
+15,0.9,Q2 = 40min E + 3x(2T w/ 2min rest) + 2E,13
+14,0.9,Q1 = 1E + 2x(2T w/ 2min rest) + 60min E + 1T + 1E,15
+14,0.9,Q2 = 6E + 5x(4min I w/ 3 min jog) + 2E,13
+13,0.9,Q1 = 100-120min E,16
+13,0.9,Q2 = 40min E + 3x(2T w/ 2min rest) + 2E,13
+12,1.0,Q1 = 2E + 6M + 1E + 6M + 1E,16
+12,1.0,Q2 = 6E + 3T + 3min E + 2T + 2min E + 1T + 2E,14
+11,0.9,Q1 = 10E + 2x(2T w/ 2min rest) + 2E,15
+11,0.9,Q2 = 8E + 5x(3min I w/ 2 min jog) + 6x(1 min R w/ 2min jog) + 2E,15
+10,1.0,Q1 = 120min E,16
+10,1.0,Q2 = 2E + 12M + 2E,16
+9,1.0,Q1 = 2E + 6M + 1E + 4M + 1T + 1E,15
+9,1.0,Q2 = 5E + 3x(2T w/ 2min rest) + 1T + 2E,14
+8,0.9,Q1 = 60min E + 8M + 1E,17
+8,0.9,Q2 = 8E + 4x(4min I w/ 3min jog) + 3E,14
+7,0.9,Q1 = 120-150min E,17
+7,0.9,Q2 = 2E + 8M + 3x(1T w/ 1min recovery) + 2E,15
+6,1.0,Q1 = 2E + 14M + 1E,17
+6,1.0,Q2 = 60min E + 3x(2T w/ 2min rest) + 1T + 1E,15
+5,1.0,Q1 = 2E + #T + 60min E + 2T + 2E,17
+5,1.0,Q2 = 8E + 5x(3min I w/ 2min E) + 4x(1min R w/ 2min jog),15
+4,0.9,Q1 = 150min E,17
+4,0.9,Q2 = 6E + 5x(3min I w/ 2min E) + 4E,13
+3,0.9,Q1 = 1E + 8M + 1E + 6M + 1E,17
+3,0.9,Q2 = 4E + 2x(2T w/ 2min rest) + 3x(1T w/ 1min rest) + 2E,13
+2,0.9,Q1 = 1E + 3x(2T w/ 2min rest) + 60min E,15
+2,0.9,Q2 = 4E + 1T + 2M + 1E + 1T + 2M + 2E,13
+1,-,Q1 = 90min E,10
+1,-,60min E,8
+1,-,Q2 = 2E + 3x(1T w/ 2min rest) + 2E,7
+1,-,50min E,6
+1,-,30-40min E,5
+1,-,0-20min E,2
+1,-,20-30min E,3
