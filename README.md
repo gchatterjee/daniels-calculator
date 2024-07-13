@@ -1,1 +1,1 @@
-# daniels-calculator
+# react-static-github-pages
